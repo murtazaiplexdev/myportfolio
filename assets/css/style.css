@@ -3142,7 +3142,20 @@ body.active-dark-mode h6 {
 body.active-dark-mode p {
   color: #9099ab;
 }
-
+.header__btn a{
+  display: inline-block;
+  padding: 8px 10px;
+  background-color: #000;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.header__btn a:last-child{
+  margin-right: 0;
+}
+.header__btn a svg{
+  width: 25px;
+  height: 25px;
+}
 .active-dark-mode {
   background: #151a30;
 }
